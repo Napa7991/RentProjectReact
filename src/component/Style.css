@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
-    background:  #eef0f2;
+  }
+  html{
+    background-color:#eef0f2;  
   }
   .container{
     padding: 20px;
+    background-color:#eef0f2; 
   }
   
 h3{
@@ -35,3 +38,22 @@ input{
 p{
     background-color: red;
 }
+/*   display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 30px;
+  height: 60px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px; */
+  .middle-card{
+    display: flex;
+    flex-direction: column;
+    background:#ffffff;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
