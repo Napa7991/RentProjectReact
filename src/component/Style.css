@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    background:  #eef0f2;
+  }
+  .container{
+    padding: 20px;
+  }
+  
+h3{
+    font-weight: bold;
+    /* background-color: red; */
+}
+.inp{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 78%;
+}
+label{
+    margin-top: 20px;
+    /* background-color: yellow; */
+    margin-bottom: none;
+}
+input{
+    background-color: blue;
+    margin-top: none;
+    
+}
+.btn{
+    background-color: green;
+}
+p{
+    background-color: red;
+}
