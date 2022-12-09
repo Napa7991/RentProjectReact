@@ -56,3 +56,20 @@ p{
     align-items: center;
     border-radius: 5px;
   }
+
+  /* LOWER  */
+  .lower{
+    display: grid;
+    background-color: red;
+    grid-template-columns: repeat(1,2fr 2fr)
+  }
+  /* .lowerCard{
+    display: grid;
+    grid-auto-rows: 200px;
+  } */
+  .item{
+    background-color: green;
+    display:grid;
+    grid-auto-rows: 200px;
+    margin:10px;
+  }

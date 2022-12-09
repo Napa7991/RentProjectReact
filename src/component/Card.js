@@ -12,10 +12,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import {FontAwsomeIcon} from "@fortawesome/react-fontawesome";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import { faBuilding, faHouse, faBriefcase, faLandmark, faAd } from '@fortawesome/free-solid-svg-icons';
+import { faBuilding} from '@fortawesome/free-solid-svg-icons';
 import FontApi from './FontApi';
 
-let x = faBuilding;
+// Data Api;
+import data from './Data';
+
 
 const Card = () => {
     const [data,setData] = useState(FontApi);
@@ -66,6 +68,7 @@ const Card = () => {
                 </div>
 
                 <div className="lower">
+                        <div className="item item1">hello</div>
                 </div>
             </div>
         </>
