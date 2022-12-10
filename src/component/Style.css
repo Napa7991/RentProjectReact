@@ -4,39 +4,79 @@
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
   }
-  html{
+  /* html{
     background-color:#eef0f2;  
-  }
+  } */
   .container{
     padding: 20px;
-    background-color:#eef0f2; 
+    background:#eef0f2;
+    padding:5px; 
   }
-  
-h3{
-    font-weight: bold;
-    /* background-color: red; */
+ 
+.Upper{
+  /* background-color: red; */
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.Dream{
+  font-weight: bolder;
+
+}
+.middle{
+  /* background-color: green; */
+
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 20px;
+}
+.inputClass{
+    /* background-color: blue; */
+    margin-top: 30px;   
+}
+
+.location{
+  font-weight: bold;  
+}
+
+.categoryy{
+  padding-top: 15px;
+  font-weight: bolder;
+  /* background-color: red; */
+}
+
+.middle-card{
+  display: flex;
+  flex-direction: column;
+  background:#ffffff;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
 }
 .inp{
     border-left: none;
     border-right: none;
     border-top: none;
     width: 78%;
+    background: transparent;
+}
+/* removing the input outline when clicked */
+textarea:focus,input:focus{
+  outline:none;
+  background: transparent;
 }
 label{
     margin-top: 20px;
     /* background-color: yellow; */
     margin-bottom: none;
 }
-input{
-    /* background-color: blue; */
-    margin-top: none;
-    
-}
+
 .btn{
     background-color: green;
 }
-p{
-}
+
 /*   display: flex;
   flex-direction: column;
   background-color: #ffffff;
@@ -46,16 +86,7 @@ p{
   justify-content: center;
   align-items: center;
   border-radius: 5px; */
-  .middle-card{
-    display: flex;
-    flex-direction: column;
-    background:#ffffff;
-    width: 30px;
-    height: 30px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-  }
+
 
   /* LOWER  */
   .lower{
@@ -81,9 +112,7 @@ p{
     background-repeat: no-repeat;
     background-position: center;
  }
- h6{
-  /* background-color: teal; */
- }
+
  /* trying */
  .x{
   /* background-color: red; */
@@ -94,20 +123,12 @@ p{
   /* background-color: green; */
   padding: 5px;
 }
-.card-title{
-  /* background-color: pink; */
-}
-.card-text{
-  /* background-color: yellow; */
-}
+
 .row{
   /* background-color: blue; */
   padding: 5px;
 }
-.container{
-  /* background-color: brown; */
-  padding:5px;
-}
+
 .new{
   /* background-color: black; */
   padding:5px;

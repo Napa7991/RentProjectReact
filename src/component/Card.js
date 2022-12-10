@@ -33,17 +33,17 @@ const Card = () => {
 
             <div className="container">
                 <div className="Upper">
-                    <h3>Dream House:</h3>
-                    <h3>Find Yours</h3>
-                    <div className='input'>
-                        <label htmlFor="/">Location</label>
+                    <h1 className='Dream'>Dream House:</h1>
+                    <h1 className='Dream'>Find Yours</h1>
+                    <div className='inputClass'>
+                        <span className='location'>Location</span>
                         <br />
                         <input type="text" placeholder='Everywhere' className='inp' />
                         <div className="btn"><FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon></div>
                     </div>
                 </div>
                 <div className="middle">
-                    <span id="category">Category</span>
+                    <h5 className='categoryy'>Categories</h5>
                     <div className="Slider py-4 justify-content-center">
                         <Swiper
                             freeMode={true}
